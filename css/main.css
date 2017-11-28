@@ -1,1 +1,49 @@
-*
+body{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background: url('../img/body-bg.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.text-heading-upper{
+	font-size: 5rem;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.text-heading-lower{
+	font-size: 1.2rem;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+hr.divider{
+	max-width: 250px;
+	border-top: 2px solid rgba(0,0,0,1)
+}
+
+
+/*home*/
+.home{
+	margin: 25px 0;
+}
+
+/*about*/
+#about img{
+	float: left;
+	height: 250px;
+	margin-right: 23px;
+}
+
+#about p{
+	font-size: 22px;
+	font-weight: 300;
+}
