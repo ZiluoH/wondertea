@@ -4,6 +4,10 @@ body{
   background-size: cover;
 }
 
+nav{
+	background-color: #eeeeee;
+}
+
 .text-heading-upper{
 	font-size: 5rem;
 	text-align: center;
