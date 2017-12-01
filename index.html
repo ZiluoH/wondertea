@@ -85,7 +85,7 @@
       </div>
       
       <!-- about -->
-      <div id="about" class="bg-faded p-4 my-4">
+      <div id="about" class="bg-faded p-4 my-5">
         <h2 class="text-center">About <strong>Wonder Tea</strong> </h2>
         <hr class="divider">
         <img src="img/aboutimg.jpg" class="d-none d-lg-block">
@@ -111,6 +111,33 @@
       <div id="contact" class="bg-faded p-4 my-4">
         <h2 class="text-center">Contact <strong>Wonder Tea</strong></h2>
         <hr class="divider">
+        
+        <!-- contact form -->
+        <form action="https://formspree.io/ibuyuseless@gmail.com"
+      method="POST" id="contactForm" novalidate>
+          <div class="row">
+            <div class="col-md-4 offset-md-2 my-2">
+              <label for="contactName">Name</label>
+              <input type="text" class="form-control" name="name" id="contactName" placeholder="Your name" required="required">
+              <div class="invalid-feedback">Please provide your name</div>
+            </div>
+            <div class="col-md-4 my-2">
+              <label for="contactEmail">Email</label>
+              <input type="email" class="form-control" name="email" id="contactEmail" placeholder="Your email" required="required">
+              <div class="invalid-feedback">Please provide valid email</div>
+            </div>
+            <div class="col-md-8 offset-md-2 my-4">
+              <label for="contactMessage">Message</label>
+              <textarea class="form-control" id="contactMessage" name="message" required="required"></textarea>
+              <div class="invalid-feedback">Please enter your message</div>
+            </div>
+
+          </div>
+          <button class="btn btn-primary offset-md-8" type="submit">Send message</button>
+        </form>
+
+
+
       </div>
 
 

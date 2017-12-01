@@ -15,16 +15,27 @@ $(document).ready(function(){
 
 			// use jQuery's animate() method to add smooth page scroll
 			$('html, body').animate({
-				scrollTop: $(hash).offset().top
-			}, 800, function(){
-
-				// add hash(#) to url when done scrolling(default click behavior)
-				window.location.hash = hash;
-			})
+				scrollTop: $(hash).offset().top - 95
+			}, 600)
 		}
 		// end if
 	})
-})
+});
 
 
-// $('#navbarResponsive a')
+
+
+(function() {
+  'use strict';
+
+  window.addEventListener('load', function() {
+    var form = document.getElementById('contactForm');
+    form.addEventListener('submit', function(event) {
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated');
+    }, false);
+  }, false);
+})();
