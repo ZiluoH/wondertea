@@ -62,3 +62,16 @@ hr.divider{
 footer{
 	margin-top: 50px;
 }
+
+footer a{
+	color: black;
+	font-weight: 550;
+}
+
+footer a:hover{
+	text-decoration: none;
+}
+
+.footer-mid p{
+	display: inline-block;
+}
